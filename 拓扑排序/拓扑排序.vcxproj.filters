@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="拓扑排序算法">
+      <UniqueIdentifier>{59f1dfbe-714a-4860-a764-4e6e658001f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拓扑排序算法\源文件">
+      <UniqueIdentifier>{bef1ad03-25b0-4b44-b71d-4135e3eee108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拓扑排序算法\头文件">
+      <UniqueIdentifier>{2faa2f01-7370-4a7d-ae40-296a9f78b55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="邻接矩阵的数据结构">
+      <UniqueIdentifier>{c3c12ec2-824b-4d4b-898b-d3efcfee5f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="邻接矩阵的数据结构\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="邻接矩阵的数据结构\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="栈的数据结构">
+      <UniqueIdentifier>{d9bbab4a-353e-4c8b-9af4-1ebea9aad3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\源文件">
+      <UniqueIdentifier>{2b2be93e-0933-49c9-8ace-debff30f83bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\头文件">
+      <UniqueIdentifier>{28bf690f-abf7-48fd-be9c-4f75d5636c96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>邻接矩阵的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MGraph.c">
+      <Filter>邻接矩阵的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectedEdge.c">
+      <Filter>邻接矩阵的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnDirectedEdge.c">
+      <Filter>邻接矩阵的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological.c">
+      <Filter>拓扑排序算法\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStack.c">
+      <Filter>栈的数据结构\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MGraph.h">
+      <Filter>邻接矩阵的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectedEdge.h">
+      <Filter>邻接矩阵的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnDirectedEdge.h">
+      <Filter>邻接矩阵的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topological.h">
+      <Filter>拓扑排序算法\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStack.h">
+      <Filter>栈的数据结构\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

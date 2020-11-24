@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="邻接表的数据结构">
+      <UniqueIdentifier>{75cccc2d-5632-4b02-b230-a5193aec8384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="邻接表的数据结构\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="邻接表的数据结构\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="拓扑排序">
+      <UniqueIdentifier>{53988279-57a4-4fb8-a6c2-c26242dbe7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拓扑排序\源文件">
+      <UniqueIdentifier>{0d00e60e-5dcf-4141-9453-1770be68430d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="拓扑排序\头文件">
+      <UniqueIdentifier>{cf0694db-2079-4a43-9cac-917bae1433ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构">
+      <UniqueIdentifier>{4f60f131-474d-43a3-a183-e92810b821d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\源文件">
+      <UniqueIdentifier>{e7d13fa2-4575-4e89-bfce-6669da9b2c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="栈的数据结构\头文件">
+      <UniqueIdentifier>{138ee231-cac1-4230-a5c6-4a7707c0ea39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>邻接表的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGraph.c">
+      <Filter>邻接表的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectEdge.c">
+      <Filter>邻接表的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnDirectEdge.c">
+      <Filter>邻接表的数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological.c">
+      <Filter>拓扑排序\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStack.c">
+      <Filter>栈的数据结构\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALGraph.h">
+      <Filter>邻接表的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnDirectEdge.h">
+      <Filter>邻接表的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectEdge.h">
+      <Filter>邻接表的数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Topological.h">
+      <Filter>拓扑排序\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStack.h">
+      <Filter>栈的数据结构\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
